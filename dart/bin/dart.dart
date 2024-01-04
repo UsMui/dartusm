@@ -18,7 +18,6 @@ void main(List<String> arguments) async {
   );
 
   Customer createdCustomer = await customerService.createCustomer(newCustomer);
-  print("Created Customer: $createdCustomer");
 
 
 }
